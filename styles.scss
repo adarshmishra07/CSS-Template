@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+.container {
+    max-width: 1320px;
+    margin: 0px auto;
+}
+
 // margins
 
 // margin auto
@@ -57,74 +62,151 @@
 // margins 10
 
 .m-10 {
-    margin: 10;
+    margin: 10px;
 }
 
 .mt-10 {
-    margin-top: 10;
+    margin-top: 10px;
 }
 .ml-10 {
-    margin-left: 10;
+    margin-left: 10px;
 }
 
 .mr-10 {
-    margin-right: 10;
+    margin-right: 10px;
 }
 
 .mb-10 {
-    margin-bottom: 10;
+    margin-bottom: 10px;
 }
 
 .mx-10 {
-    margin-left: 10;
-    margin-right: 10;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .my-10 {
-    margin-top: 10;
-    margin-bottom: 10;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-// margins 16
+// margins 30
 
 .m-16 {
-    margin: 16;
+    margin: 16px;
 }
 
 .mt-16 {
-    margin-top: 16;
+    margin-top: 16px;
 }
 .ml-16 {
-    margin-left: 16;
+    margin-left: 16px;
 }
 
 .mr-16 {
-    margin-right: 16;
+    margin-right: 16px;
 }
 
 .mb-16 {
-    margin-bottom: 16;
+    margin-bottom: 16px;
 }
 
 .mx-16 {
-    margin-left: 16;
-    margin-right: 16;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 .my-16 {
-    margin-top: 16;
-    margin-bottom: 16;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+// margins 32
+
+.m-32 {
+    margin: 32px;
+}
+
+.mt-32 {
+    margin-top: 32px;
+}
+.ml-32 {
+    margin-left: 32px;
+}
+
+.mr-32 {
+    margin-right: 32px;
+}
+
+.mb-32 {
+    margin-bottom: 32px;
+}
+
+.mx-32 {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.my-32 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+// margins 50
+
+.m-50 {
+    margin: 50px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+.ml-50 {
+    margin-left: 50px;
+}
+
+.mr-50 {
+    margin-right: 50px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.mx-50 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.my-50 {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 // media queries
 
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
 @media screen and (max-width: 991px) {
+    .container {
+        max-width: 960px;
+    }
 }
 
 @media screen and (max-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
 }
 
 // keyframes
